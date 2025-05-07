@@ -36,6 +36,11 @@
 
 }
 
+.font{
+
+  font-weight: bolder;
+}
+
 .main ol {
   font-family: var(--font-geist-mono);
   padding-left: 0;
