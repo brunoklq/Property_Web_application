@@ -14,6 +14,7 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+ 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,6 +33,7 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+
 }
 
 .main ol {
@@ -79,6 +81,16 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
+}
+.wrapper {
+  background-color: #1E3E62;
+
+}
+.wrapper2{
+
+  background-color:#FF6500 ;
+
+
 }
 
 a.primary {
