@@ -1,0 +1,131 @@
+import {useState, useEffect} from "react";
+import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export default function Property_list(){
+
+
+    return(
+
+        <>
+        
+        <>
+        
+        <Nav />
+        <>
+
+        <div className="bg-dark min-vh-100">
+        
+        
+            
+            <form class=" d-flex flex-column container align-items-center w-50">
+
+            <div className="text-white d-flex flex-column container mt-5 mb-4 "  >
+
+            <h1 className="border-bottom w-50 pb-1 ">Property Listing</h1>
+
+            </div>
+                <div className="d-flex flex-row container gap-5 w-100 justify-content-center"> 
+                    <div className="mb-3 w-50">
+
+                        <label className="form-label text-light fw-bold">Profile:</label>
+                        <select className="w-100 mx-auto ">
+                            <option value="Refrigerator">LandLord</option>
+                            <option value="Washing Machine">Tenants</option>
+                        </select>
+                 </div>
+                <div className="mb-3 w-50">
+
+                        <label className="form-label text-light fw-bold">Profile:</label>
+                        <select className="w-100">
+                            <option value="Refrigerator">LandLord</option>
+                            <option value="Washing Machine">Tenants</option>
+                        </select>
+                 </div>
+
+                 <div className="mb-3 w-50">
+
+                    <label className="form-label text-light fw-bold">Profile:</label>
+                    <select className="w-100">
+                        <option value="Refrigerator">LandLord</option>
+                        <option value="Washing Machine">Tenants</option>
+                    </select>
+                    </div>
+
+
+                    </div>
+
+
+                <div className="d-flex flex-column border border-1 border-light mt-4  w-100 ">
+                <table class="table table-striped table-dark">
+                        <thead className="table-light">
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Property Title</th>
+                            <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>@fat</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td>John</td>
+                            <td>@social</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>@fat</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td>John</td>
+                            <td>@social</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>@fat</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td>John</td>
+                            <td>@social</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </form>
+            </div>
+            </>
+            
+            </>
+            
+            <Footer />
+            </>
+
+
+    );
+
+
+}

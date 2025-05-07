@@ -19,7 +19,7 @@ export function Nav() {
         <a className="nav-link text-dark fw-semibold" href="/">Home</a>
         <a className="nav-link text-dark fw-semibold" href="/login">Login</a>
         <a className="nav-link text-dark fw-semibold" href="/register">Register</a>
-        <a className="nav-link text-dark fw-semibold" href="#">Properties</a>
+        <a className="nav-link text-dark fw-semibold" href="/property_list">Properties</a>
       </div>
     </nav>
   );
